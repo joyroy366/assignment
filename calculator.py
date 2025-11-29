@@ -43,16 +43,16 @@ class Calculator:
             num2 = self.get_number("Enter second number: ")
 
             if choice == '1':
-                print(f"{num1} + {num2} = {self.add(num1, num2)}")
+                print(f"ADD : {num1} + {num2} = {self.add(num1, num2)}")
 
             elif choice == '2':
-                print(f"{num1} - {num2} = {self.subtract(num1, num2)}")
+                print(f"Subtract : {num1} - {num2} = {self.subtract(num1, num2)}")
 
             elif choice == '3':
-                print(f"{num1} * {num2} = {self.multiply(num1, num2)}")
+                print(f"Multiply : {num1} * {num2} = {self.multiply(num1, num2)}")
 
             elif choice == '4':
-                print(f"{num1} / {num2} = {self.divide(num1, num2)}")
+                print(f"Divide : {num1} / {num2} = {self.divide(num1, num2)}")
 
             else:
                 print("Invalid choice! Try again.")
